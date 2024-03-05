@@ -7,7 +7,8 @@
     android:orientation="vertical"
     android:paddingStart="@dimen/padding_dialog"
     android:paddingEnd="@dimen/padding_dialog"
-    android:background="@drawable/alert_dialog"
+    android:paddingTop="@dimen/padding_dialog"
+    android:background="@color/white"
     style="@style/CardView"
     >
     <TextView
