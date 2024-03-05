@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:paddingStart="@dimen/padding_dialog"
-    android:paddingEnd="@dimen/padding_dialog"
     android:paddingTop="@dimen/padding_dialog"
-    android:background="@color/white"
-    style="@style/CardView"
-    >
+    android:paddingEnd="@dimen/padding_dialog">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title_alert_dialog"
         android:textSize="@dimen/title_alert_dialog"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_alert_dialog"
-        android:textSize="@dimen/text_alert_dialog"/>
+        android:textSize="@dimen/text_alert_dialog" />
 
 </LinearLayout>
