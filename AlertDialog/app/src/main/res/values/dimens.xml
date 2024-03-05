@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_dialog">20dp</dimen>
+    <dimen name="title_alert_dialog">22sp</dimen>
+    <dimen name="text_alert_dialog">18sp</dimen>
+    <dimen name="radius_alert_dialog">50dp</dimen>
+</resources>

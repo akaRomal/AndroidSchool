@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AlertDialog</string>
+    <string name="title_alert_dialog">Диалоговое окно</string>
+    <string name="text_alert_dialog">Это текст в диалоговом окне. Здесь возможно много строк кода.</string>
+    <string name="ok_alert_dialog">Confirm</string>
+    <string name="cancel_alert_dialog">Dismiss</string>
 </resources>
