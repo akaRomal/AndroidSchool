@@ -12,8 +12,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showAlertDialog(){
+
+        val alertDialog = resources.getDrawable(R.drawable.alert_dialog)
+
         val builder = AlertDialog.Builder(this)
-        builder
+        val dialog = builder
             .setView(R.layout.alert_dialog)
             .setPositiveButton(R.string.ok_alert_dialog){ dialog, _ ->
                 dialog.cancel()
@@ -22,6 +25,7 @@ class MainActivity : AppCompatActivity() {
                 dialog.cancel()
             }
             .create()
-            .show()
+        dialog.show()
+        dialog.window?.setBackgroundDrawable(alertDialog)
     }
 }
