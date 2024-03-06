@@ -4,4 +4,5 @@
     <string name="text_alert_dialog">Это текст в диалоговом окне. Здесь возможно много строк кода.</string>
     <string name="ok_alert_dialog">Confirm</string>
     <string name="cancel_alert_dialog">Dismiss</string>
+    <string name="text_dialog_fragment">Здесь содержится какой нибуть текст.</string>
 </resources>

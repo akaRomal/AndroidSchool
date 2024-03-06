@@ -4,4 +4,7 @@
     <dimen name="title_alert_dialog">22sp</dimen>
     <dimen name="text_alert_dialog">18sp</dimen>
     <dimen name="radius_alert_dialog">15dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="height_logo">240dp</dimen>
+    <dimen name="margin_logo">24dp</dimen>
 </resources>
