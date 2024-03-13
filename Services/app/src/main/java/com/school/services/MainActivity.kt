@@ -16,15 +16,15 @@ const val TAG = "TESTTEST"
 class MainActivity : AppCompatActivity() {
 
     private var binding: ActivityMainBinding? = null
-//    private val receiver = NetworkChangeReceiver()
+    private val receiver = NetworkChangeReceiver()
     override fun onCreate(savedInstanceState: Bundle?) {
         Log.d(TAG, "Отработал ОнКреате")
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding!!.root)
 
-//        val intentFilter = IntentFilter("android.net.conn.CONNECTIVITY_CHANGE")
-//        registerReceiver(receiver, intentFilter)
+        val intentFilter = IntentFilter("android.net.conn.CONNECTIVITY_CHANGE")
+        registerReceiver(receiver, intentFilter)
 
         binding?.let {
             it.btnForegroundStart.setOnClickListener {
@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
-//        unregisterReceiver(receiver)
+        unregisterReceiver(receiver)
         super.onDestroy()
     }
 
