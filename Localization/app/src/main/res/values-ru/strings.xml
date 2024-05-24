@@ -1,0 +1,7 @@
+<resources>
+    <string name="text_title_start_screen">Выберите ваш\n язык</string>
+    <string name="text_button_next">Далее</string>
+    <string name="text_title">Кофе настолько хорош, что он понравится вашим вкусовым рецепторам.</string>
+    <string name="text_description">Лучшее зерно, лучшая обжарка, мощный вкус.</string>
+    <string name="text_button_start">Начать</string>
+</resources>

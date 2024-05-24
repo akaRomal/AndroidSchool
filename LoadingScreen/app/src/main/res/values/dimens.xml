@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_progress_bar">20dp</dimen>
+    <dimen name="width_progress_bar">200dp</dimen>
+    <dimen name="padding_loading">20dp</dimen>
+    <dimen name="margin">10dp</dimen>
+</resources>

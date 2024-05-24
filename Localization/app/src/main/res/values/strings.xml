@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">Localization</string>
+    <string name="text_title_start_screen">Choose your\n language</string>
+    <string name="lang_text_eng" translatable="false">English</string>
+    <string name="lang_text_ru" translatable="false">Русский</string>
+    <string name="text_button_next">Next</string>
+    <string name="text_title">Coffee so good, your taste buds will love it.</string>
+    <string name="text_description">The best grain, the finest roast, the powerful flavor.</string>
+    <string name="text_button_start">Get Started</string>
+</resources>
